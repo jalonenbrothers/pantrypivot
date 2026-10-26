@@ -5,3 +5,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ index.php [QSA,L]
 RedirectMatch 404 ^/(lib|src|tests|migrations|scripts|data)/
 RedirectMatch 404 ^/config\.example\.php$
+RedirectMatch 404 ^/(README\.md|router\.php|\.gitignore|\.git/)$
