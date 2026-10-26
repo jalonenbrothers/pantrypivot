@@ -1,0 +1,4 @@
+lib/config.php
+lib/*.sqlite
+*.sqlite
+bin/
